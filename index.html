@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Blog Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+  <!-- Sticky Header -->
+  <header>
+    <h1>Privacy Policy</h1>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <p>At <strong>SL Tech Side</strong>, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our blog.</p>
+
+    <h2>Information We Collect</h2>
+    <p>We may collect the following types of information:</p>
+    <ul>
+      <li><strong>Personal Information:</strong> Name, email address, and other details you provide when subscribing to our newsletter or leaving comments.</li>
+      <li><strong>Browsing Data:</strong> IP address, browser type, device information, and pages visited, collected via cookies and similar technologies.</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+    <p>We use your information for the following purposes:</p>
+    <ul>
+      <li>To personalize your experience on our blog.</li>
+      <li>To send periodic emails (if you subscribe to our newsletter).</li>
+      <li>To improve our website based on your feedback and interactions.</li>
+    </ul>
+
+    <h2>Cookies and Tracking Technologies</h2>
+    <p>We use cookies to enhance your browsing experience. You can disable cookies in your browser settings, but this may affect the functionality of our blog.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>We may use third-party services (e.g., Google Analytics) to analyze website traffic. These services have their own privacy policies, and we encourage you to review them.</p>
+
+    <h2>Data Security</h2>
+    <p>We implement industry-standard security measures to protect your data. However, no method of transmission over the internet is 100% secure.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated date.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please <a href="https://api.whatsapp.com/send/?phone=%2B94779407127&text&type=phone_number&app_absent=0">contact us</a>.</p>
+
+    <div class="footer">
+      <p>&copy; 2023 SL Tech Side. All rights reserved. | <a href="https://sujithwaruna.github.io/Terms-and-Conditions/">Terms of Service</a></p>
+    </div>
+  </div>
+
+  <script>
+    // Dark Mode Toggle
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      const toggleButton = document.querySelector('.dark-mode-toggle');
+      if (document.body.classList.contains('dark-mode')) {
+        toggleButton.textContent = '☀️ Light Mode';
+      } else {
+        toggleButton.textContent = '🌙 Dark Mode';
+      }
+    }
+  </script>
+</body>
+</html>
